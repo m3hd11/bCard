@@ -2,3 +2,10 @@ body {
 	background-color: #ecf0f1;
 	font-family: 'Source Sans Pro', sans-serif;
 }
+
+#bCard {
+	max-width: 50%;
+	pdding: 20px;
+	background-color: white;
+	box-shadow: 5px 5px rgba(0,0,0,0.1);
+}
