@@ -1,17 +1,52 @@
 body {
 	background-color: #ecf0f1;
 	font-family: 'Source Sans Pro', sans-serif;
+	display: flex;
+	align-items: center;
+	justify-content: center;
+
+}
+
+html, body {
+	height: 100%;
+}
+
+.flex-container {
+	height: 100%;
+	display: flex;
+	align-items: center;
+	justify-content: center;
+	
 }
 
 #bCard {
+	width: auto;
 	max-width: 50%;
 	pdding: 20px;
 	background-color: white;
 	box-shadow: 5px 5px rgba(0,0,0,0.1);
+	text-align: center;
 }
 
 .quote {
-	font-weight: 200%;
+	font-weight: 200;
 	font-style: italic;
 	font-size: 1.5rem;
+}
+
+img {
+	border-radius: 100%;
+	border-width: 5px;
+	border-style: solid;
+	border-color: #ecf0f1;
+	width: 50%;
+	max-width: 150px;
+}
+
+a, a:visited {
+	color: #ECF0F1;
+}
+
+a:hover {
+	color: #2980b9;
 }
